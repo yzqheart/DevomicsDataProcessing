@@ -1,1 +1,1 @@
-This is the scripts for RNA data processing in Devomics.
+These are scripts for RNA data processing in Devomics.
