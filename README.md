@@ -1,2 +1,2 @@
 # DevomicsDataProcessing
-Devomics
+Scripts for data processing in Devomics.
