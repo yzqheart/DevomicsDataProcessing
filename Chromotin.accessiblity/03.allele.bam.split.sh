@@ -10,4 +10,4 @@ samtools index $sname.$chrom.SNP.unique.bam
 
 cut -f1,2 $exontagSNPbed | samtools mpileup -O -Q 0 -l - $sname.$chrom.SNP.unique.bam  > $sname.$chrom.pileup
 
-perl Extract_AlleleSupportReads_from_SEbam_20170315.pl $sname.$chrom $exontagSNPbed $sname.$chrom.SNP.unique.bam  $sname.$chrom.pileup
+perl splitBam.pl $sname.$chrom $exontagSNPbed $sname.$chrom.SNP.unique.bam  $sname.$chrom.pileup
