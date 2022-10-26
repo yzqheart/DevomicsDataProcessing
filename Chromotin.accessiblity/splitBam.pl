@@ -10,7 +10,7 @@ open SNP, "<$SNP_file" or die"can't open:$!";
 #format example:
 #head exon.tagSNP.simple.bed 
 #chr1    3205922 3205922 G       A
-#chr1    3206100 3206100 A       G
+
 my %snp1;
 my %snp2;
 while(<SNP>){
